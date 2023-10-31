@@ -1,0 +1,6 @@
+
+<button *ngIf="!loginDisplay" class="btn btn-secondary" (click)="login()">Sign In</button>
+<button *ngIf="loginDisplay" class="btn btn-secondary" (click)="logout()">Sign Out</button>
+<div class="container">
+	<router-outlet></router-outlet>
+</div>
